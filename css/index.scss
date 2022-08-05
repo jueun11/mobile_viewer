@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+#root{
+  width: 100vw;
+  height: 100vh;
+  background-color:#c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &>#iphone{
+    width: 395px;
+    height: 687px;
+    background-color: #d6d6d6;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &>div{
+      width: 390px;
+      height: 682px;
+      background-color: #858585;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &>div{
+        width: 385px;
+        height: 677px;
+        background-color: #222222;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        &>iframe{
+          // width: 405px;
+          // position: relative;
+          // position: absolute;
+          width: 375px;
+          height: 667px;
+          border-radius: 20px;
+          background-color: #fff;
+          scrollbar-width: none;
+          -ms-overflow-style: none;
+        }
+
+      }
+    }
+  }
+}
+
